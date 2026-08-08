@@ -34,7 +34,7 @@ const HeroSection = () => {
 
 
 
-               
+
 
               </h1>
               <h2 className='text-white font-bold text-2xl pt-7 '>Full Stack Developer</h2>
@@ -43,12 +43,10 @@ const HeroSection = () => {
 
             {/* Professional Text */}
             <p className="text-gray-300 pt-8 text-center lg:text-left mx-auto lg:mx-0 max-w-xl text-lg leading-relaxed">
-
-              I'm dedicated to creating
-              modern, responsive, and user-friendly web applications.
-              I specialize in React, Django, JavaScript, and modern UI design,
-              helping businesses and individuals build impactful digital experiences.
-
+              I'm a passionate Full Stack Developer focused on building modern,
+              responsive, and user-friendly web applications. I specialize in
+              React, JavaScript, Django, and modern UI development, with a strong
+              focus on creating clean, scalable, and impactful digital experiences.
             </p>
 
             {/* Buttons */}
@@ -63,7 +61,7 @@ const HeroSection = () => {
                 <span className='absolute inset-0 rounded-full bg-cyan-400 group-hover:scale-105 transition-all duration-300'></span>
 
                 <span className='relative flex items-center justify-center text-black font-semibold'>
-                 View Projects
+                  View Projects
                 </span>
 
               </a>
