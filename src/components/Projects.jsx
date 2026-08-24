@@ -3,13 +3,35 @@ import proj1 from '../assets/proj1.png'
 import proj2 from '../assets/proj2.png'
 import proj3 from '../assets/proj3.png'
 import proj4 from '../assets/proj4.png'
+import proj5 from '../assets/proj5.png'
 
 const Projects = () => {
 
   const projects = [
     {
-      id: 1,
+      id:1,
       image: proj1,
+      title: "MERN E-Commerce Website",
+      description:
+        "A responsive e-commerce application with product listing, cart functionality and user-friendly shopping experience.",
+      tech: ["React", "JavaScript", "Tailwind CSS", "API","Node.js","Express","MongoDB"],
+      github: "https://github.com/simranpanwar123/E-commerce",
+      live: "https://ecommerce-eight-xi-55.vercel.app/",
+    },
+    {
+      id: 2,
+      image: proj5,
+      title: "AI-Chat-App",
+      description:
+        "Built a responsive AI-powered chat application using React.js and Vite, featuring dynamic AI responses, message state management, reusable components, and a responsive chat interface",
+      tech: ['React', 'TailwindCSS', 'AI Integration', 'APIs'],
+      github: "https://github.com/simranpanwar123/AI-Chat-APP",
+      live: "https://weather-app-nine-sooty-55.vercel.app/"
+    },
+
+    {
+      id: 3,
+      image: proj2,
       title: "Weather App",
       description:
         "A weather app that provides real-time weather information for any location. It features a clean UI and displays current weather conditions, forecasts, humidity, and wind speed.",
@@ -17,31 +39,19 @@ const Projects = () => {
       github: "https://github.com/simranpanwar123/Weather-App",
       live: "https://weather-app-nine-sooty-55.vercel.app/"
     },
-
     {
-      id: 2,
-      image: proj2,
-      title: "JWT Authentication App",
-      description:
-        "A full-stack web application with secure JWT authentication. Users can register, login, and access protected routes using JWT tokens.",
-      tech: ['React', 'Django', 'JWT', 'APIs'],
-      github: "https://github.com/simranpanwar123/Fullstack-jwt-authentication",
-      live: "https://fullstack-jwt-authentication.vercel.app/"
-    },
-
-    {
-      id: 3,
+      id: 4,
       image: proj3,
       title: "Portfolio Website",
       description:
         "A modern responsive portfolio website built using React and Tailwind CSS with animations and smooth scrolling sections.",
       tech: ['React', 'Tailwind', 'AOS'],
       github: "https://github.com/simranpanwar123/My-Portfolio",
-      live: "https://my-portfolio-njjp.vercel.app/"
+      live: "https://my-portfolio-alpha-gold-49.vercel.app/"
     },
 
     {
-      id: 4,
+      id: 5,
       image: proj4,
       title: "Smart EMI Planner",
       description:
